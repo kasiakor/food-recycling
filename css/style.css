@@ -447,7 +447,7 @@ footer .wrap .sub p a:hover {
     }
 }
 
-@media screen and (max-width: 950px)  {
+@media screen and (max-width: 990px)  {
     ul.nav__list li {
         display: none;
 
