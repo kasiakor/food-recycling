@@ -1,0 +1,428 @@
+@font-face {
+	font-family: 'Geomanist';
+	src: url('fonts/Geomanist-Light.ttf');
+	src: format('truetype');
+}
+
+body {
+font-family: 'Geomanist', Helvetica, sans-serif;
+font-size: 18px;
+line-height: 1.44444;
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+background-color: #fff;
+color: #3e3e3e;
+
+}
+
+/*.........navigation...........*/
+
+
+ul.nav__list {
+    list-style-type: none;
+    margin-right: 20px;
+    padding: 20px;
+    overflow: hidden;
+    text-align: right;
+    margin-top: 0;
+    
+   
+}
+
+ul.nav__list li {
+    display: inline-block;
+    background-color: #79af42;
+    border-radius: 3px;
+
+}
+
+ul.nav__list li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    border-radius: 5px;
+
+}
+
+.border {
+    position: relative;
+}
+
+
+ul.nav__list li a::before,
+ul.nav__list li a::after {
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s;
+}
+
+ul.nav__list li a::before {
+    margin-right: 10px;
+    content: '[';
+    -webkit-transform: translateX(20px);
+    -moz-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+ul.nav__list li a::after {
+    margin-left: 10px;
+    content: ']';
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    transform: translateX(-20px);
+}
+
+ul.nav__list li a:hover::before,
+ul.nav__list li a:hover::after,
+ul.nav__list li a:focus::before,
+ul.nav__list li a:focus::after {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+.global-nav-container {
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/*.......................toggle........................*/
+
+.toggle-nav {
+    display:none;
+}
+
+
+/*.......................about........................*/
+
+.about-img {
+    background-color: black;
+    height: 80vh; 
+     background-image: url("../img/gardena.jpg");
+    background-size: cover;
+}
+
+.about > p {
+    line-height: 1.75;
+    letter-spacing: 1.5px;
+    padding: 40px 0;
+   
+}
+
+.about > p strong {
+    color: #e82e37;
+
+}
+
+/*.......................recycling........................*/
+
+section.banner {
+    padding-top: 0;
+}
+
+.drecycling-banner img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 200px; 
+}
+
+ul.facts {
+    line-height: 2em;
+    list-style-type: square;
+    color: green;
+}
+
+ul.facts p {
+    color: #3e3e3e;
+}
+
+
+ul.facts.middle  {
+   display: inline-block;
+} 
+
+
+h1.rec-head, h1.rec-head-spin {
+    font-family: 'Oregano', cursive;
+    color: #79af42;
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+h1.rec-head span {
+    color: #e82e37;
+}
+
+.spin {
+    position: relative;
+    text-align: center;
+}
+
+#spin-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 50px;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  100%{
+    transform:rotate(360deg);
+  }
+}
+
+/*.......................video........................*/
+
+.fallback-img {
+    background-color: black;
+    height: 80vh; 
+    background-image: url("../img/gardena.jpg");
+    background-size: cover;
+}
+
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+
+
+
+/*.......................intro........................*/
+
+section {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.page-container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    font-weight: 100;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+.intro {
+    font-size: 24px;
+    font-weight: 100;
+    margin: 0 auto;
+    font-weight: 100;
+    background-color: rgba(121, 175, 66, 0.39);
+    color: #fff;
+    z-index: 100;
+    position: relative;
+
+
+}
+
+.intro > p {
+    line-height: 1.75;
+    letter-spacing: 1.5px;
+
+   
+}
+
+.intro > p strong {
+    color: #e82e37;
+    fill: #e82e37;
+     padding-right: 20px;
+}
+
+
+/*.......................gallery........................*/
+
+h1.gardena-fun  {
+    color: #3e3e3e;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 100;
+
+}
+
+.gardena-fun span {
+    color: #e82e37;
+    font-weight: 700;
+}
+
+.gallery {
+display: block;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.gallery .photo {
+display: inline-block;
+padding: 20px;
+}
+
+.gallery .photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.garden {
+    text-align: center;
+}
+
+.img-zoom {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+.transition {
+    -webkit-transform: scale(1.1); 
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*.......................footer........................*/
+
+
+footer {
+position: relative;
+height: auto;
+width: 100%;
+background: #79af42;
+}
+
+.outer {
+    padding: 12px 0;
+}
+footer .wrap {
+    margin: 0 auto;
+    white-space: nowrap;
+    font-size: 0;
+}
+footer .wrap .sub {
+    position: relative;
+    display: inline-block;
+    color: white;
+    width: 20%;
+    padding: 27px 10px;
+    border-right: 1px solid #e9e4db;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+footer .wrap .sub:last-child {
+    border: 0px;
+}
+
+
+footer .wrap .sub p a:link,
+footer .wrap .sub p a:visited
+ {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .wrap .sub p a:hover {
+    color: #a41e24;
+    text-decoration: underline;
+}
+
+#logo {
+    width: 100px;
+}
+
+#github-icon {
+    margin-top: 7px;
+    padding-bottom: 4px;
+}
+
+
+@media screen and (max-width: 1140px) {
+    footer .wrap {
+        white-space: normal;
+    }
+
+    footer .wrap .sub {
+          width: 33%;
+    }
+}
+
+@media screen and (max-width: 520px)  {
+
+    footer .wrap .sub {
+         width: 100%;
+         border: none;
+
+    }   
+    footer .wrap .sub::after {
+        content: "";
+        width: 50%;
+        height: 1px;
+        background-color: #e9e4db;
+        display: block;
+        margin: auto;
+        position: relative;
+        top: 27px;
+    }
+
+    footer .wrap .sub:last-child::after, footer .wrap .sub:first-child::after{
+        height: 0;
+    }
+
+  }
+
+  @media screen and (max-width: 746px)  {
+
+    ol.horizontal-timeline li {
+         text-align: center;
+    }   
+
+    .evolution {
+        text-align: center;
+    }
+
+    .item-2, .item-1  {
+        width: 100%;
+  }
+  main#content {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 746px)  {
+    .fallback-img {
+        background: none;
+    }
+}
