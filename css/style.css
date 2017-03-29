@@ -473,6 +473,10 @@ ul.nav__list li.item:last-child {
 section {
     padding: 20px 0;
 }
+
+h1.rec-head {
+    font-size: 25px;
+}
 }
 
 
