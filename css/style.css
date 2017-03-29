@@ -252,8 +252,8 @@ section {
 
 .intro > p strong {
     color: #e82e37;
-    fill: #e82e37;
-     padding-right: 20px;
+    padding-right: 20px;
+    font-weight: 600;
 }
 
 
