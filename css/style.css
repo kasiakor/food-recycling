@@ -466,6 +466,13 @@ ul.nav__list li.item:last-child {
     border-bottom: none;
 }
 
+.recycling-banner img {
+    width: 100%;
+}
+
+section {
+    padding: 20px 0;
+}
 }
 
 
