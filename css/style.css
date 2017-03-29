@@ -433,9 +433,22 @@ footer .wrap .sub p a:hover {
     .item-2, .item-1  {
         width: 100%;
   }
-  main#content {
+
+.gallery .photo img {
+    width: 50%;
+    height: auto;
+}
+
+.video-container video {
     display: none;
-  }
+}
+
+.intro {
+    background-color: white;
+    color: #3e3e3e;
+    font-size: 18px;
+}
+
 }
 
 
