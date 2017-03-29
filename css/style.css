@@ -32,11 +32,11 @@ ul.nav__list {
 }
 
 ul.nav__list li {
-    display: inline-block;
+ display: inline-block;
     background-color: #79af42;
     border-radius: 3px;
-
 }
+
 
 ul.nav__list li a {
     display: block;
@@ -375,6 +375,7 @@ footer .wrap .sub p a:hover {
 }
 
 
+
 @media screen and (max-width: 1300px) {
     .gardena-info {
         width: 75%;
@@ -422,18 +423,6 @@ footer .wrap .sub p a:hover {
 
   @media screen and (max-width: 746px)  {
 
-    ol.horizontal-timeline li {
-         text-align: center;
-    }   
-
-    .evolution {
-        text-align: center;
-    }
-
-    .item-2, .item-1  {
-        width: 100%;
-  }
-
 .gallery .photo img {
     width: 50%;
     height: auto;
@@ -457,3 +446,26 @@ footer .wrap .sub p a:hover {
         background: none;
     }
 }
+
+@media screen and (max-width: 950px)  {
+    ul.nav__list li {
+        display: none;
+
+    }
+ul.nav__list li.item {
+        display: block;
+        border-bottom: 1px solid white;
+        width: 100%;  
+    }
+ul.nav__list {
+    padding: 0;
+    margin: 0;
+}
+
+ul.nav__list li.item:last-child {
+    border-bottom: none;
+}
+
+}
+
+
