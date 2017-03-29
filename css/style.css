@@ -279,6 +279,16 @@ text-align: center;
 margin-bottom: 50px;
 }
 
+.gardena-info {
+    position:relative;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    text-align: justify;
+    font-size: 0;
+    padding: 45px 60px;
+}
+
+
+
 .gallery .photo {
 display: inline-block;
 padding: 20px;
@@ -365,6 +375,13 @@ footer .wrap .sub p a:hover {
 }
 
 
+@media screen and (max-width: 1300px) {
+    .gardena-info {
+        width: 75%;
+    }
+}
+
+
 @media screen and (max-width: 1140px) {
     footer .wrap {
         white-space: normal;
@@ -374,6 +391,10 @@ footer .wrap .sub p a:hover {
           width: 33%;
     }
 }
+
+
+
+
 
 @media screen and (max-width: 520px)  {
 
