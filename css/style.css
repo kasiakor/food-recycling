@@ -478,6 +478,12 @@ section {
 h1.rec-head {
     font-size: 25px;
 }
+
+ul.facts p {
+    text-align: justify;
+    padding-right: 20px;
+}
+
 }
 
 
