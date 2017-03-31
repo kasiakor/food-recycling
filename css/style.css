@@ -430,6 +430,11 @@ footer .wrap .sub p a:hover {
 ul.nav__list li a {
     padding: 10px 0;
 }
+
+h1.gardena-fun {
+    font-size: 18px;
+}
+
   }
 
   @media screen and (max-width: 746px)  {
