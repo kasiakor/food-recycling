@@ -484,10 +484,12 @@ ul.facts p {
     padding-right: 20px;
 }
 
-.about > p {
+.about > p, .intro > p {
     text-align: justify;
     padding: 10px 20px;
 }
+
+
 }
 
 
