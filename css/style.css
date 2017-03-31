@@ -110,6 +110,7 @@ ul.nav__list li a:focus::after {
     background-color: black;
     height: 80vh; 
      background-image: url("../img/gardena.jpg");
+     width: 100%;
     background-size: cover;
 }
 
@@ -253,7 +254,7 @@ section {
 .intro > p strong {
     color: #e82e37;
     padding-right: 20px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 
@@ -420,6 +421,15 @@ footer .wrap .sub p a:hover {
         height: 0;
     }
 
+    .about-img {
+    background-color: black;
+    height: 80vh; 
+     background-image: url("../img/gardena-sm.png");
+    background-size: cover;
+}
+ul.nav__list li a {
+    padding: 10px 0;
+}
   }
 
   @media screen and (max-width: 746px)  {
