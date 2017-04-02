@@ -19,7 +19,6 @@ color: #3e3e3e;
 
 /*.........navigation...........*/
 
-
 ul.nav__list {
     list-style-type: none;
     margin-right: 20px;
@@ -100,27 +99,29 @@ ul.nav__list li a:focus::after {
 }
 
 
-/*.......................responsive nav........................*/
-
-
-
 /*.......................about........................*/
 
-.about-img {
+#about-page .nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+} 
+
+#about-page .about-img {
     height: 80vh; 
      background-image: url("../img/gardena.jpg");
      width: 100%;
     background-size: cover;
 }
 
-.about > p {
+#about-page .about > p {
     line-height: 1.75;
     letter-spacing: 1.5px;
     padding: 40px 0;
    
 }
 
-.about > p strong {
+#about-page .about > p strong {
     color: #e82e37;
 
 }
@@ -416,8 +417,7 @@ footer .wrap .sub p a:hover {
         height: 0;
     }
 
-    .about-img {
-    background-color: black;
+    #about-page .about-img {
     height: 80vh; 
      background-image: url("../img/gardena-sm.png");
     background-size: cover;
@@ -459,6 +459,11 @@ h1.gardena-fun {
 }
 
 @media screen and (max-width: 990px)  {
+
+    #about-page .nav {
+        position: static;
+    }
+
     ul.nav__list li {
         display: none;
 
