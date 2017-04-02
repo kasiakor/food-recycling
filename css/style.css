@@ -107,7 +107,6 @@ ul.nav__list li a:focus::after {
 /*.......................about........................*/
 
 .about-img {
-    background-color: black;
     height: 80vh; 
      background-image: url("../img/gardena.jpg");
      width: 100%;
