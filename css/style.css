@@ -173,11 +173,8 @@ h1.rec-head span {
 }
 
 #spin-img {
-    position: absolute;
     top: 0;
     left: 0;
-    bottom: 50px;
-    right: 0;
     margin: auto;
     width: 100px;
     height: 100px;
@@ -325,7 +322,6 @@ position: relative;
 height: auto;
 width: 100%;
 background: #79af42;
-margin-top: 50px;
 }
 
 .outer {
