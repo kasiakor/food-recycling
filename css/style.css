@@ -31,7 +31,7 @@ ul.nav__list {
 }
 
 ul.nav__list li {
- display: inline-block;
+    display: inline-block;
     background-color: #79af42;
     border-radius: 3px;
 }
